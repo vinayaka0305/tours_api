@@ -12,7 +12,7 @@ const retrieveTours = async (req, res) => {
     }else{
       res.status(200).json({
         status: "success",
-        message: "fetched all data",
+        message: "fetched all the data",
         result,
       });
     }
